@@ -1,15 +1,37 @@
+
+
 #header{
-    color: teal;
+    color: rgb(0, 0, 0);
     font-size: 100px;
     text-align: center;
 }
 
+.main-section{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: auto;
+}
+
+.card-section{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 50px 0px 50px 0px; */
+  margin: 50px 0px 50px 0px;
+  flex-direction: row;
+  gap: 5.5px;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  
+}
 
 /* this is paragraph style */
 .paragraph{
-    color: red;
- font-size: 4rex;   
- text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+ 
 }
 
 /* this is for the button */
@@ -18,11 +40,13 @@
     width: 100px;
     font-weight: bold;
     font-size: 20px;
-    color: hwb(0 0% 0%);
+    color: hwb(0 100% 0%);
     border: 2px solid red ;
     border-radius: 10px;
     background-color: black;
-cursor: pointer;
+
+    
+cursor: row-resize;
 }
 
 .button:hover{
